@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+$font-family-sans-serif: "Montserrat" !default;
+
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #4f5467 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+$blue: #5475ed !default;
+$indigo: #6610f2 !default;
+$purple: #7015bd !default;
+$pink: #e83e8c !default;
+$red: #ed4040 !default;
+$orange: #fb9678 !default;
+$yellow: #fec107 !default;
+$green: #01e82c !default;
+$teal: #20c997 !default;
+$cyan: #01c0c8 !default;
+$primary: #ed4040 !default;
+$text-muted: $gray-600 !default;
+
+$colors: (
+        blue: $blue,
+        indigo: $indigo,
+        purple: $purple,
+        pink: $pink,
+        red: $red,
+        orange: $orange,
+        yellow: $yellow,
+        green: $green,
+        teal: $teal,
+        cyan: $cyan,
+        white: $white,
+        gray: $gray-600,
+        gray-dark: $gray-800
+);
+
+$theme-colors: (
+        primary: $blue,
+        secondary: $gray-100,
+        success: $green,
+        info: $blue,
+        warning: $yellow,
+        danger: $red,
+        light: $white,
+        cyan: $cyan,
+        dark: $gray-800,
+        purple: $purple
+);
+
+$body-bg: $white;
+$body-color: $gray-900 !default;
+$jumbotron-bg: $gray-100 !default;
+
+$navbar-brand-padding-y: 10px;
+
+$card-border-width: 0px !default;
+$card-border-radius: 0px !default;
+$enable-shadows: true !default;
+
+.white {
+    background-color: $white;
+}
+
+.btn-label {
+    position: relative;
+    left: -12px;
+    display: inline-block;
+    padding-left: 6px;
+    border-radius: 3px 0 0 3px;
+}
+
+.btn-labeled {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.btn {
+    margin-bottom: 10px;
+}
+
+html {
+    font: 100%/1.75 'Merriweather','Georgia',serif;
+}
+
+body {
+    font-weight: 400;
+    word-wrap: break-word;
+    font-kerning: normal;
+}
+
+.App {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+.textContainer {
+    border: 1px solid #9fcdff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width:100%;
+    height:100%;
+}
+
+@import "bootstrap/scss/bootstrap.scss";
